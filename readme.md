@@ -53,33 +53,32 @@ The dataset comprises a plethora of variables, as outlined below:
 - Pandas for data manipulation
 - Scikit-learn for machine learning algorithms
 - Matplotlib and Seaborn for data visualization
-- PyCaret for automated machine learning (model verification)
 
 ---
 
 ## Key Performance Indicators
 
-- **Test Accuracy**: 93.22
-- **Precision**: 93.96
-- **Recall**: 73.65
-- **F1 Score**: 82.58
-- **AUC-ROC**: 96.14
+- **Test Accuracy**: 91.74
+- **Precision**: 93.95
+- **Recall**: 68.49
+- **F1 Score**: 79.22
+- **AUC-ROC**: 83.58
 
 ## Conclusion
 
 ### Summary of Findings
 
-This Credit Risk Analysis model has exhibited compelling performance in predicting loan defaults. The model achieved an impressive accuracy rate of 93.22%, suggesting that it correctly identifies whether a loan will default or not most of the time. It also scored high in other key metrics:
+This Credit Risk Analysis model has exhibited compelling performance in predicting loan defaults. The model achieved an impressive accuracy rate of 91.74%, suggesting that it correctly identifies whether a loan will default or not most of the time. It also scored high in other key metrics:
 
 Interpretation of Metrics:
 
 Precision: At nearly 94%, the model is highly precise in predicting the positive class, meaning it has a low rate of false positives. This is crucial for a financial institution, as mislabeling a defaulting loan as non-defaulting could be quite costly.
 
-Recall: At 73.65%, the model captures a reasonable percentage of all actual defaults. While not as high as we'd ideally prefer, this still implies that the model is useful in a real-world setting for identifying high-risk loans.
+Recall: At 68.45%, the model captures a reasonable percentage of all actual defaults. While not as high as we'd ideally prefer, this still implies that the model is useful in a real-world setting for identifying high-risk loans.
 
-F1 Score: The balance between Precision and Recall is represented by the F1 Score of 82.58%, indicating a well-rounded model.
+F1 Score: The balance between Precision and Recall is represented by the F1 Score of 79.22%, indicating a well-rounded model.
 
-AUC-ROC: The AUC-ROC score, a comprehensive metric that considers both the true positive rate and the false positive rate, is exceptionally high at 96.14%, further confirming the model's quality.
+AUC-ROC: The AUC-ROC score, a comprehensive metric that considers both the true positive rate and the false positive rate, is at 83.58%, further confirming the model's quality.
 
 ### Implications for Stakeholders
 
